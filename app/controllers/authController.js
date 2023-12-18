@@ -62,7 +62,7 @@ function generateUniqueToken() {
     });
 }
 
-
+//forgot-password
 exports.forgotPassword = async (req, res) => {
     try {
         const { email } = req.body;
